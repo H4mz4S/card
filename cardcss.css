@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .header{
+    padding: 20px;
+    display:flex ; 
+    flex-direction: row;
+    width: 80%;
+    justify-content:space-around;
+    text-align: center;
+    color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-small;
+    margin-bottom: 40px;
+}
+#sh{
+color:brown;
+}
+.column{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+   }
+.img{
+    text-align: center;
+}
+.title{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    color: #202020;
+   }
+   .subtitle{
+    line-height: 10px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    color:#202020;
+   }
+.stock{
+    line-height: 10px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    color:#2eba9b;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-bottom: 30px;
+
+}
+
+.btn{
+    width: 50%;
+    height: 50%;
+    background-color:#d9d9d9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-weight:1000;
+    border:none;
+}
+
+.count{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+.counter1{
+    padding-left: 200px;
+}
+
+.prices{
+    height: 100%;
+    text-align: right;
+    padding-left: 180px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.amount{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 40px;
+}
+
+.remove{
+    background-color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50%;
+    color: #d9d9d9;
+    border-radius:3px;
+    font-weight: 300;
+}
+
+#line{
+    width: 30%;
+    margin-right: 10%;
+}
+.checkout{
+    float: right;
+    margin-right: 10%;
+    width: 30%;
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subtotal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+
+}
+.items{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgrey;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.total-amount{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: x-large;
+    padding-top:3px ;
+}
+.button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #2eba9b;
+    border: none;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
